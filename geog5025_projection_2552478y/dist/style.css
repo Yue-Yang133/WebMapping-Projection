@@ -1,0 +1,40 @@
+/* 设置全局样式 */
+body {
+  margin: 10;
+  padding: 10;
+  font-family: sans-serif;
+}
+
+/* 地图容器，全屏显示 */
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+/* 控制面板样式 */
+#controls {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+#year-slider {
+  width: 220px;
+}
+
+#toggle-habitat {
+  margin-top: 5px;
+  display: block;
+}
+
+#switch-habitat {
+  margin-top: 5px;
+  display :block;
+  
+}
